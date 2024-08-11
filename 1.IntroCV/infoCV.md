@@ -39,14 +39,18 @@ A visão computacional é crucial em diversas áreas da tecnologia e ciência. D
    venv\Scripts\activate  # Windows
 
 3. **Jupyter Notebook:** 
-   Neste repositório, utilizarei o Jupyter Notebook como a principal ferramenta para desenvolver e demonstrar os exemplos de visão computacional. O Jupyter Notebook é uma ferramenta altamente intuitiva que permite executar o código em células individuais, tornando o processo de aprendizado mais acessível e didático.
+   Neste repositório, utilizarei o Jupyter Notebook como a principal ferramenta para desenvolver e demonstrar os exemplos de visão computacional. O Jupyter Notebook é uma plataforma altamente intuitiva que permite a execução de código em células individuais, tornando o processo de aprendizado mais acessível e didático.
 
-   Com o Jupyter, você pode ver o código, os resultados e as explicações em um único lugar, facilitando o entendimento do que está sendo feito em cada etapa. Isso é especialmente útil para quem está aprendendo, pois permite acompanhar o desenvolvimento do código de forma clara e organizada.
+   Com o Jupyter, você pode ver o código, os resultados e as explicações em um único lugar, facilitando o entendimento de cada etapa. Isso é especialmente útil para quem está aprendendo, pois permite acompanhar o desenvolvimento do código de forma clara e organizada.
 
-  Para iniciar o Jupyter Notebook você pode instalar ele localmente em sua máquina: 
+   Para começar a usar o Jupyter Notebook, você tem duas opções:
 
-  ```bash
-  pip install notebook
-  jupyter notebook 
+   - **Instalação local:** Você pode instalar o Jupyter Notebook em sua máquina com os comandos abaixo:
+     ```bash
+     pip install notebook
+     jupyter notebook
+     ```
+     Isso abrirá uma interface web onde você poderá criar e executar seus notebooks localmente.
 
-  Ou entrar no https://colab.google/ e criar um arquivo .ipynb
+   - **Google Colab:** Alternativamente, você pode usar o [Google Colab](https://colab.google/) para criar e executar notebooks diretamente no navegador, sem precisar instalar nada. Basta criar um novo arquivo `.ipynb` e começar a codificar.
+
